@@ -4,25 +4,54 @@
         <meta charset="utf-8">
         <title>My Office</title>
         <style media="screen">
+        .wrapper{
+          padding: 25px;
+          background-color: #d6f1ed ;
+          width: 800px;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+        }
+          body{
+          background-color:  #6e7171;
+        }
           img{
             max-width:100%;
           }
           .header{
-              width:100%;
-              diplay: block;
+              width:80%;
+              display: block;
               margin-right: auto;
               margin-left: auto;
           }
+          h1{
+            text-align: center;
+            color: black;
+          }
+          .group{
+              width: 80%;
+              display: block;
+              margin-right: auto;
+              margin-left: auto;
+              border: 1px solid red;
+          }
+          .group img{
+            margin: 5px;
+          }
+
+
+
         </style>
     </head>
     <body>
+      <div class="wrapper">
 
         <h1>My Office</h1>
-<!-- TODO: resize and center the image with CSS by adding a class called "main-img" to this image below-->
+
         <img src="header/meditation.png" class="header" alt="">
 
 
-<!-- TODO: Group a few images together and center the group in the browser -->
+
         <div class="group">
             <img src="images/desk-lamp-2.jpg" alt="desk-lamp-2">
             <img src="images/camera-4.jpg" alt="camera-4">
@@ -31,16 +60,7 @@
             <img src="images/tablet-1.jpg" alt="">
             <img src="images/game-thing-2.jpg" alt="">
         </div><!--end group-->
-    <style>
-          .group{
-              width: 40%;
-              display: block;
-              margin-right: auto;
-              margin-left: auto;
-          }
-          .group img{
-            margin: 5px;
-          }
-<!-- TODO: Make sure to add the alt text to all images -->
-    </body>
+
+      </div><!-- END WRAPPER -->
+</body>
 </html>
